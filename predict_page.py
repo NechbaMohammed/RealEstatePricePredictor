@@ -35,7 +35,7 @@ latitude = st.number_input("Latitude", value=6.193683)
 st.header("Informations sur la mutation")
 date_mutation = st.date_input("Date de la mutation", pd.to_datetime("2017-07-04"))
 nature_mutation = st.selectbox("Nature de la mutation", ['Vente', 'Vente terrain à bâtir', 'Echange', "Vente en l'état futur d'achèvement", 'Adjudication', 'Expropriation'])
-type_local = st.selectbox("Type de local", ['Maison', 'Dépendance', 'Appartement', 'Local industriel. commercial ou assimilé'])
+type_local = st.selectbox("Type de local", ['Maison', 'Appartement', 'Local industriel. commercial ou assimilé'])
 nature_culture = st.selectbox("Nature de la culture", ['sols', 'terrains à bâtir', "terrains d'agrément", 'terres', 'prés', 'taillis sous futaie', 'jardins', 'vignes', 'carrières', 'landes', 'taillis simples', 'peupleraies', 'eaux', 'vergers', 'futaies résineuses', 'futaies mixtes', 'pâtures', 'futaies feuillues', 'chemin de fer', 'bois', 'prés plantes', 'pacages', 'oseraies', 'terres plantées', 'landes boisées', 'herbages', "prés d'embouche"])
 
 # Bouton pour effectuer la prédiction
